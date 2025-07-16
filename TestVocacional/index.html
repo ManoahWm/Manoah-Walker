@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VocacKal</title>
+        <link rel="icon" type="image/svg+xml" href="title.svg">
+
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- cabeçalho -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-estilo">
+  <div class="container-fluid">
+    <a class="navbar-brand letra display-1" href="#">VocacKal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+        <li class="nav-item">
+          <a class="nav-link letra " aria-current="page" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link letra" href="#">Testes</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle letra" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Faculdades
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item letra" href="#">Unipar</a></li>
+            <li><a class="dropdown-item letra" href="#">UTFPR</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item letra" href="#">FACCAR</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+        </header>
+        <br>
+
+        <!-- inicio; titulo -->
+
+        <div> 
+            <div class="container">
+                <h1 class="display-1 titulo">Teste Vocacional</h1>
+                <h6 class="display-6 subtitulo">Mais Testes:</h6>
+
+            </div>
+
+        </div>
+
+        <content>
+            <div class="fundoconteudo">
+
+                <!-- Cards -->
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+    <a href="https://unidades.afya.com.br/ead/unidep?utm_term=universidade%20ead&utm_campaign=afya-grad_psq_unidep_digital_formas-de-ingresso_conversao_cadastro&utm_source=google&utm_medium=cpc&hsa_acc=2860021795&hsa_cam=20110215743&hsa_grp=148989137676&hsa_ad=714994432263&hsa_src=g&hsa_tgt=kwd-316990558309&hsa_kw=universidade%20ead&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=20110215743&gclid=Cj0KCQjwjo7DBhCrARIsACWauSnE2lpDt6JuBtJk7Yb5Pcd8kwmeFZPy85pxLF3JSXUAkk9PqX1TCAAaAn-HEALw_wcB">
+  <div class="col">
+    <div class="card card-hover">
+      <img src="faculdade.jfif" class="card-img-top estilo-imagem" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Qual faculdade é a sua cara?</h5>
+        <p class="card-text">Descubra qual faculdade você mais se encaixa</p>
+      </div>
+    </div>
+  </div></a>
+  <a href="https://querobolsa.com.br/cursos-e-faculdades/tecnologia-da-informacao">
+  <div class="col">
+    <div class="card card-hover">
+      <img src="TI.jpeg" class="card-img-top estilo-imagem" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Qual área de TI realizar?</h5>
+        <p class="card-text">Descubra qual área da TI é a sua cara!!</p>
+      </div>
+    </div>
+  </div></a>
+  <a href="https://unifor.br/web/melhor-profissao/exatas-e-humanas-qual-a-diferenca">
+  <div class="col">
+    <div class="card card-hover">
+      <img src="exhu.jpg" class="card-img-top estilo-imagem" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Qual área você é?</h5>
+        <p class="card-text">Descubra de qual área você é, humanas ou exatas?</p>
+      </div>
+    </div>
+  </div></a>
+  
+  
+</div>
+
+</div>
+    <br><br>
+            <div class="fundoconteudo">
+            <!-- subtitulo -->
+             <h5 class="display-5 subtitulo">Para descobrir ou Profissões que se encaixam com seu perfil, responda as questões abaixo:</h5>
+             <h1 class="display-6 subtitulo">Parte 1: Interesses Pessoais</h1>
+               
+
+             <!-- select -->
+
+             <div class="fundoquestoes">
+
+             <!-- pergunta 1 -->
+             <div>
+                <h2 class="display-6 perguntas">1 - No seu tempo livre, qual atividade você prefere?</h2>
+                <h6>a) Resolver problemas ou quebra-cabeças (ex.: jogos de lógica, sudoku)</h6>
+                <h6>b) Criar algo novo (ex.: desenhar, escrever, cozinhar)</h6>
+                <h6>c) Ajudar outras pessoas (ex.: ouvir amigos, voluntariar)</h6>
+                <h6>d) Explorar a natureza ou aprender sobre o meio ambiente</h6>
+                <h6>e) Organizar eventos, liderar grupos ou planejar atividades</h6>
+                <select name="Questões" id="opc1">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                    <option value="e">e</option>
+                </select>
+              </div>
+
+                <!-- Pergunta 2 -->
+              <div>
+                <h2 class="display-6 perguntas">2 - Qual tipo de projeto escolar você mais gosta?</h2>
+                <h6>a) Pesquisas científicas ou experimentos</h6>
+                <h6>b) Apresentações criativas (ex.: teatro, vídeos, artes)</h6>
+                <h6>c) Trabalhos em grupo que envolvem ajudar os outros</h6>
+                <h6>d) Projetos sobre história, cultura ou sociedade</h6>
+                <h6>e) Planejamento de eventos ou feiras escolares</h6>
+                <select name="Questões" id="opc2">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                    <option value="e">e</option>
+                </select>
+              </div>
+
+              <!-- Pergunta 3 -->
+             <div>
+                <h2 class="display-6 perguntas">3 - Se pudesse escolher uma matéria para estudar mais profundamente, qual seria?</h2>
+                <h6>a) Matemática ou Física</h6>
+                <h6>b) Artes ou Literatura</h6>
+                <h6>c) Psicologia ou Sociologia</h6>
+                <h6>d) Biologia ou Geografia</h6>
+                <h6>e) Administração ou Economia</h6>
+                <select name="Questões" id="opc3">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                    <option value="e">e</option>
+                </select>
+              </div>
+              <!-- Pergunta 4 -->
+               <div>
+                <h2 class="display-6 perguntas">4 - Qual dessas atividades você acha mais interessante?</h2>
+                <h6>a) Programar ou construir algo técnico (ex.: robôs, sites)</h6>
+                <h6>b) Escrever histórias, poesias ou criar campanhas publicitárias</h6>
+                <h6>c) Trabalhar com saúde ou bem-estar (ex.: primeiros socorros, terapia)</h6>
+                <h6>d) Estudar o comportamento animal ou mudanças climáticas</h6>
+                <h6>e) Gerenciar projetos ou negociar acordos</h6>
+                <select name="Questões" id="opc4">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                    <option value="e">e</option>
+                </select>
+              </div>
+
+              </div>
+              <!-- Parte 2 -->
+               <div>
+                <h1 class="display-5 subtitulo">Parte 2: Habilidades e Competências</h1>
+               </div>
+               <div class="fundoquestoes">
+
+             <!-- pergunta 5 -->
+             <div>
+                <h2 class="display-6 perguntas">5- Qual dessas habilidades você considera mais forte em você?</h2>
+                <h6>a) Resolver problemas lógicos ou matemáticos</h6>
+                <h6>b) Expressar ideias de forma criativa (escrita, desenho, fala)</h6>
+                <h6>c) Entender e apoiar as emoções das pessoas</h6>
+                <h6>d) Observar detalhes e analisar informações</h6>
+                <h6>e) Organizar tarefas ou liderar equipes</h6>
+                <select name="Questões" id="opc5">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                    <option value="e">e</option>
+                </select>
+              </div>
+
+                <!-- Pergunta 6 -->
+              <div>
+                <h2 class="display-6 perguntas">6- Em um trabalho em grupo, qual papel você geralmente assume?</h2>
+                <h6>a) O que analisa os dados e propõe soluções</h6>
+                <h6>b) O que traz ideias criativas ou faz o design</h6>
+                <h6>c) O que motiva o grupo e mantém todos unidos</h6>
+                <h6>d) O que pesquisa e organiza as informações</h6>
+                <h6>e) O que coordena o grupo e define prazos</h6>
+                <select name="Questões" id="opc6">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                    <option value="e">e</option>
+                </select>
+              </div>
+
+              <!-- Pergunta 7 -->
+             <div>
+                <h2 class="display-6 perguntas">7 - Qual dessas situações você se sente mais confortável?</h2>
+                <h6>a) Trabalhar com números ou tecnologia</h6>
+                <h6>b) Criar algo visual ou artístico</h6>
+                <h6>c) Conversar e ajudar pessoas com problemas</h6>
+                <h6>d) Estudar o meio ambiente ou fenômenos naturais</h6>
+                <h6>e) Planejar e executar projetos</h6>
+                <select name="Questões" id="opc7">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                    <option value="e">e</option>
+                </select>
+              </div>
+
+              </div>
+              <div>
+                <!-- parte 3 -->
+                <h1 class="display-5 subtitulo">Parte 3: Valores e Objetivos</h1>
+               </div>
+
+               <div class="fundoquestoes">
+
+             <!-- pergunta 8 -->
+             <div>
+                <h2 class="display-6 perguntas">8 - O que você mais valoriza em uma profissão?</h2>
+                <h6>a) Resolver desafios complexos</h6>
+                <h6>b) Ser criativo e inovador</h6>
+                <h6>c) Fazer a diferença na vida das pessoas</h6>
+                <h6>d) Contribuir para um mundo mais sustentável</h6>
+                <h6>e) Ter estabilidade financeira ou liderança</h6>
+                <select name="Questões" id="opc8">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                    <option value="e">e</option>
+                </select>
+              </div>
+
+                <!-- Pergunta 9 -->
+              <div>
+                <h2 class="display-6 perguntas">9 - Qual ambiente de trabalho você prefere?</h2>
+                <h6>a) Laboratório, escritório técnico ou com tecnologia</h6>
+                <h6>b) Estúdio, agência criativa ou espaços culturais</h6>
+                <h6>c) Hospital, escola ou ONGs</h6>
+                <h6>d) Campo, fazenda ou centros de pesquisa ambiental</h6>
+                <h6>e) Escritório corporativo ou eventos</h6>
+                <select name="Questões" id="opc9">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                    <option value="e">e</option>
+                </select>
+              </div>
+
+              <!-- Pergunta 10 -->
+             <div>
+                <h2 class="display-6 perguntas">10 - Onde você se imagina daqui a 10 anos?</h2>
+                <h6>a) Desenvolvendo novas tecnologias ou soluções científicas</h6>
+                <h6>b) Criando conteúdo, como filmes, livros ou designs</h6>
+                <h6>c) Trabalhando diretamente com pessoas, como médico ou professor</h6>
+                <h6>d) Protegendo o meio ambiente ou estudando a natureza</h6>
+                <h6>e) Gerenciando uma empresa ou liderando projetos</h6>
+                <select name="Questões" id="opc10">
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>
+                    <option value="d">d</option>
+                    <option value="e">e</option>
+                </select>
+              </div>
+
+              </div>
+              <h1 class="display-5 subtitulo">Parte 4: Perguntas Abertas</h1>
+
+              <div class="fundoquestoes">
+                <h6 class="display-6 subtitulo aber">Escreva respostas curtas para refletir sobre suas preferências.</h6>
+                <br>
+                <h2 class="display-6 perguntas">Se você pudesse escolher qualquer profissão sem se preocupar com dinheiro ou dificuldade, qual seria e por quê?</h2>
+                <input placeholder="Digite aqui...">
+                <br><br>
+                <h2 class="display-6 perguntas">Qual é uma atividade ou hobby que você faz e que te deixa muito feliz? Como isso poderia estar ligado a uma carreira?</h2>
+                <input placeholder="Digite aqui...">
+                <br><br>
+                <h2 class="display-6 perguntas">Existe alguma área ou curso que você já considerou, mas tem dúvidas? O que te atrai e o que te preocupa nessa área?</h2>
+                <input placeholder="Digite aqui...">
+
+              </div>
+
+             </div>
+             
+             <!-- mostrar resultado -->
+             <div class="fundoconteudo">
+              <h1 class="display-5 subtitulo">Agora vamos Descobrir a área que mais se encaixa em você</h1>
+              <div class="fundoquestoes">
+                <h6 class="display-6 subtitulo">Calcule o Resultado:</h6>
+             <center> <button onclick="lerSelects()" class="btn botaoz">Resultado</button></center>
+             <br>
+                  <!-- resultar -->
+
+                  <p>Exatas ou Tecnologia</p>
+                  <div class="fundoPorc">
+                  <div class="barraPorc" id="exatas">%</div>
+                  </div>
+                    <br>
+                  <p>Artes ou Comunicação</p>
+                  <div class="fundoPorc">
+                  <div class="barraPorc" id="artes">%</div>
+                  </div>
+                    <br>
+                  <p>Ciências Humanas ou Saúde</p>
+                  <div class="fundoPorc">
+                  <div class="barraPorc" id="saude">%</div>
+                  </div>
+                    <br>
+                  <p>Ciências Biológicas ou Ambientais</p>
+                  <div class="fundoPorc">
+                  <div class="barraPorc" id="ciencias">%</div>
+                  </div>
+                    <br>
+                  <p>Gestão ou Negócios</p>
+                  <div class="fundoPorc">
+                  <div class="barraPorc" id="gestao">%</div>
+                  </div>
+                <h1 class="display-6 subtitulo">Realizar o teste novamente?</h1>
+                <center><a href="index.html"><button class="btn btn-reiniciar">Reiniciar</button></a></center>
+
+              
+              </div>
+             </div>
+        </content>
+
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                  <p>Website desenvolvido por Manoah Walker</p>
+                  <p>Inistuto Federal do Paraná Campus Barracão</p>
+                  <p>© Direitos reservados</p>
+              </div>
+
+            </div>
+
+          </div>
+        </footer>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    </body>
+
+</html>
