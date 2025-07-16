@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    height: 100vh;
+    margin: 0;
+}
+
+.calculadora {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#222222;
+    margin: auto;
+}
+.calculadora:hover{
+        box-shadow: 0px 20px 20px 0px rgb(0, 0, 0, 0.1);
+
+}
+
+.tela {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    background-color: #222222;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #6b6b6b;
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.igual {
+    grid-column: span 4;
+}
+.fundo{
+    background-color: rgb(252, 241, 211);
+}
+.titulo{
+    color: black;
+    letter-spacing: 7px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0.5px 25px 0.5px rgb(0, 0, 0, 0.1);
+}
+.titulo-fundo{
+    background-color: rgba(255, 255, 255, 0.342);
+}
+.subtitulo{
+    text-align: center;
+    color: rgb(87, 86, 86);
+}
+
+
+.fundocalc{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 50px;
+    margin: 50px;
+}
+.fundocalc2{
+     background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.letra{
+    color: #00ff40;
+}
+.letra:hover{
+    color:#ff0000
+}
+.tela2{
+    border-radius: 15px;
+    width: 95%;
+    height: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(143, 143, 143, 0.116);
+
+}
+.calculadora2{
+    width: 450px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #000000;
+    margin: auto;
+}
+.fundofooter{
+    padding: 15px;
+    text-align: center;
+    background-color: #1a1919;
+    color: white;
+}
+.tib{
+    background-color: white;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 15px;
+}
+.tibisi{
+    background-color: white;
+    color: black;
+    margin: 25px;
+}
+.custom-navbar{
+    background-color: rgb(255, 255, 255);
+    
+}
+.equacao{
+    background-color: #f79f2b;
+    color: white;
+}
+.btnigual{
+    background-color: #ff0000;
+    color: white;
+}
