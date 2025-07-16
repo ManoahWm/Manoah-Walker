@@ -117,7 +117,7 @@ function escolherOperacao2(operacaoEscolhidadasegunda){
     limpartela2();
 }
 // limpar tela 2 
-function limpartelaq(){
+function limpartela2(){
     document.getElementById("tela2").value = "";
 }
 // calcular2
