@@ -1,0 +1,168 @@
+body{
+    background-color: whitesmoke;
+}
+.navbar-estilo{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    box-shadow: 20px 20px 20px 10px rgb(0, 0, 0, 0.1);
+}
+.letra{
+    color: white;
+}
+.letra:hover{
+    color: red;
+}
+.dropdown-item{
+    color: black;
+}
+.titulo{
+    text-align: center;
+    color: black;
+    letter-spacing: 5px;
+    padding: 15px;
+    margin: 15px;
+    font-size: 100px;
+    border-radius: 25px;
+}
+
+.subtitulo{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+.fundoconteudo{
+    background-color: white;
+    margin: 35px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 20px 20px 50px 20px rgb(0, 0, 0, 0.1);
+}
+.estilo-imagem{
+    max-height: 300px;
+    object-fit: cover;
+}
+.card-hover:hover{
+    transform: translateY(-10px);
+        box-shadow: 0px 0px 20px 10px rgb(0, 0, 0, 0.1);
+
+}
+.perguntas{
+    text-decoration: dotted;
+}
+h6{
+    font-size: 17px;
+}
+.fundoquestoes{
+    background-color: white;
+    margin: 35px;
+    padding: 22px;
+    border-radius: 15px;
+ box-shadow: 0px 0px 20px 10px rgb(0, 0, 0, 0.1);
+}
+select{
+    
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+option{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+.botaoz{
+    background-color: rgb(235, 0, 0);
+    color: white;
+    width: 500px;
+    height: 80px;
+    font-size: 20px;
+}
+.botaoz:hover{
+    background-color: black;
+    color: white;
+}
+input{
+    height: 40px;
+    width: 900px;
+    border-radius: 5px;
+    border-style: groove;
+    color: black;
+    
+}
+.aber{
+    color: rgb(131, 131, 131);
+}
+.respostas{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+.btn-reiniciar{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 1500px;
+    
+}
+.btn-reiniciar:hover{
+    background-color: black;
+    color: white;
+    transform: translateY(-10px);
+}
+.mostrando{
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+.qualarea{
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+.fundoPorc{
+  width: 100%;
+  background-color: #ddd;
+  height: 45px;
+  
+}
+
+.barraPorc {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+
+#exatas {
+    width: 0%;
+    background-color: #ff0606;
+}
+#artes {
+    width: 0%;
+    background-color: #f7f337;
+}
+#saude {
+    width: 0%;
+    background-color: #3382f8;
+}
+#ciencias {
+    width: 0%;
+    background-color: #00ff2a;
+}
+#gestao {
+    width: 0%;
+    background-color: #ff9216d7;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.925);
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+p{
+    color: black;
+    font-size: 20px;
+}
