@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="fundo">
+
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">👨‍💻CalculeAqui</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tipos Calculadora
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#calc1">🤏Pequena</a></li>
+            <li><a class="dropdown-item" href="#calc2">👐Grande</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+    
+    </header>
+
+    
+
+
+
+    <!-- titulo e subtitulo -->
+    <div>
+        <h1 class="display-1 titulo titulo-fundo">Calculadora Digital</h1>
+        <h4 class="display-6 subtitulo" id="calc1">Realize contas matemáticas aqui:</h4>
+    </div>
+
+    
+    </div>
+    
+    <!-- primeira calculadora, 2 colunas, informações e a calc -->
+
+    <div class="fundocalc">
+    
+     <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-5" >
+          <h1 class="display-6">Informações:</h1>
+          <ul>
+            <li>Sistema desenvolvido para realização de contas matemáticas</li>
+            <li>Utilizando JS, HTML, CSS e bootstrap</li>
+            <li>Apenas 2 casas após a vírgula</li>
+          </ul>
+          <h1 class="display-6">Como usar?</h1>
+          <ul>
+            <li>Clique em um Número</li>
+            <li>Selecione a operação</li>
+            <li>Clique em novamente em um Número</li>
+            <li>Clique em "=" para obter o Resultado</li>
+            <li>Clicando em "."</li>
+          </ul>
+
+        </div>
+
+        
+        <!-- calculadora -->
+    <div class="calculadora col-12 col-md-7" >
+        <input type="text" class="tela" id="tela" readonly>
+        <div class="buttons">
+            <button onclick="adicionarNaTela7(7)" >7</button>
+            <button onclick="adicionarNaTela8(8)">8</button>
+            <button onclick="adicionarNaTela9(9)">9</button>
+            <button onclick="escolherOperacao('/')" class="letra equacao">/</button>
+            <button onclick="adicionarNaTela4(4)">4</button>
+            <button onclick="adicionarNaTela5(5)">5</button>
+            <button onclick="adicionarNaTela6(6)">6</button>
+            <button onclick="escolherOperacao('*')" class="letra equacao">*</button>
+            <button onclick="adicionarNaTela1(1)">1</button>
+            <button onclick="adicionarNaTela2(2)">2</button>
+            <button onclick="adicionarNaTela3(3)">3</button>
+            <button onclick="escolherOperacao('-')" class="letra equacao">-</button>
+            <button onclick="apagar()" class="letra btnigual">C</button>
+            <button onclick="adicionarNaTela0(0)">0</button>
+            <button onclick="adicionarNaTelaPonto()">.</button>
+            <button onclick="escolherOperacao('+')" class="letra equacao">+</button>
+            <button class="igual " onclick="calcularResultado()">=</button>
+        </div>
+    </div>
+    </div>
+  </div>
+  </div>
+
+
+
+    <h4 class="display-6 subtitulo" id="calc1">Realize contas matemáticas em uma calculadora maior:</h4>
+
+      <!-- segunda calculadora -->
+
+      <div class="fundocalc">
+
+        <div class="container">
+          <div class="row">
+            <div class="calculadora2 col-12 col-md-6" id="calc2">
+        
+        <div class="buttons">
+            <button onclick="adicionarNaTela27(7)" >7</button>
+            <button onclick="adicionarNaTela28(8)">8</button>
+            <button onclick="adicionarNaTela29(9)">9</button>
+            <button onclick="escolherOperacao2('/')" class="letra equacao">/</button>
+            <button onclick="adicionarNaTela24(4)">4</button>
+            <button onclick="adicionarNaTela25(5)">5</button>
+            <button onclick="adicionarNaTela26(6)">6</button>
+            <button onclick="escolherOperacao2('*')" class="letra equacao">*</button>
+            <button onclick="adicionarNaTela21(1)">1</button>
+            <button onclick="adicionarNaTela22(2)">2</button>
+            <button onclick="adicionarNaTela23(3)">3</button>
+            <button onclick="escolherOperacao2('-')" class="letra equacao">-</button>
+            <button onclick="apagar2()" class="letra btnigual">C</button>
+            <button onclick="adicionarNaTela20(0)">0</button>
+            <button onclick="adicionarNaTelaPonto2()">.</button>
+            <button onclick="escolherOperacao2('+')" class="letra equacao">+</button>
+            <button class="igual" onclick="calcularResultado2()">=</button>
+        </div>
+    </div>
+      
+          <div class="col-12 col-md-6">
+      
+            <input type="text" class="tela2" id="tela2" readonly>
+
+          </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- final, créditos -->
+
+      <footer class="fundofooter">
+          <h6>Website desenvolvido por: Wilian Manoah Walker</h6>
+          <h6>Insituto Federal do Paraná Campus Barracão</h6>
+          <h6>©CalculeAqui</h6>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
